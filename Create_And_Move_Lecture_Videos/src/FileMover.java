@@ -7,8 +7,9 @@ public class FileMover {
 
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
+		// TODO: replace your folder path with the location of all the videos extracted. 
 		File folder = new File(
-				"C:\\Users\\frhu\\Documents\\asdf\\GA Tech\\Fall 2019\\CPS Design\\Cyber-Physical Systems Design & Analysis Videos");
+				"<Your-Folder-Path>");
 		File[] listOfFiles = folder.listFiles();
 		ArrayList<MyFileObject> myFiles = new ArrayList<>();
 		for (int i = 0; i < listOfFiles.length; ++i) {
